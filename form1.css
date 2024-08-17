@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #8176b6;
+}
+
+.container {
+  width: 60vw;
+  height: 85vh;
+  margin: 58px auto;
+  display: flex;
+}
+
+.leftside {
+  width: 30vw;
+  height: 100%;
+  background-color: #523aa2;
+  background-image: url("./pngegg\ \(1\).png");
+  background-size: 280px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content h1 {
+  font-size: 38px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.code {
+  width: 100px;
+  text-align: center;
+}
+
+.code img {
+  width: 30px;
+  height: 30px;
+}
+
+.code p {
+  font-size: 12px;
+  color: #cacaca;
+}
+
+.rightside {
+  width: 30vw;
+  height: 100%;
+  padding: 40px;
+  background-color: #cacaca;
+}
+
+.heading {
+  margin-bottom: 30px;
+}
+
+.heading h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.heading p {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.heading a {
+  text-decoration: none;
+}
+
+.heading a:hover {
+  text-decoration: underline;
+}
+
+.form-input input {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  padding-bottom: 10px;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.checkbox label {
+  font-size: 14px;
+}
+
+.checkbox a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.checkbox a:hover {
+  text-decoration: underline;
+}
+
+button.login {
+  padding: 8px 20px;
+  border: none;
+  background-color: #4f3a9e;
+  color: white;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button.login:hover {
+  background-color: #6d53cc;
+}
+
+.para {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a i {
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+a i#facebook {
+  color: #425298;
+}
+
+a i#twitter {
+  color: #4ea2dc;
+}
+
+a i#google {
+  color: #d65647;
+}
